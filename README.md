@@ -1,27 +1,37 @@
 <html lang="en">
 <head>
 <style>
-  .floating-call-btn {
+  .small-call-btn {
     position: fixed;
-    bottom: 25px;      /* Niche se gap */
-    right: 25px;       /* Right side se gap */
-    background-color: #1a237e; /* Professional Dark Blue color */
+    top: 50%;          /* Screen ke bilkul beech mein */
+    right: 0;          /* Right side se chipka hua */
+    transform: translateY(-50%); /* Bilkul center alignment ke liye */
+    background-color: #1a237e;  /* Professional Dark Blue */
     color: white !important;
-    padding: 12px 25px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 5px 0 0 5px; /* Sirf left side se gol */
     text-decoration: none;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-weight: 600;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    z-index: 999999;   /* Sabse upar dikhne ke liye */
-    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Icon upar, text niche */
+    align-items: center;
+    gap: 5px;
+    z-index: 100000;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
   }
-  .floating-call-btn:hover {
-    transform: translateY(-5px);
-    background-color: #000; /* Hover karne par black ho jayega */
+
+  .small-call-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+  }
+
+  /* Hover karne par halka sa bahar aayega */
+  .small-call-btn:hover {
+    padding-right: 20px;
+    background-color: #000;
   }
 </style>
     <meta charset="UTF-8">
@@ -476,11 +486,11 @@
 
     document.getElementById('close-btn').onclick = removePopup;
 </script>
-<a href="tel:+919891343962" class="floating-call-btn">
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+<a href="tel:+919891343962" class="small-call-btn">
+  <svg viewBox="0 0 24 24">
     <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.558-8.903.088-.041 2.058-1.011 2.066-1.015l-3.517-6.919c-.006.003-2.151 1.052-2.159 1.056-3.714 1.823-1.484 10.25 5.143 18.256 6.626 8.006 14.341 5.347 14.341 5.347l-5.731-2.038z"/>
   </svg>
-  <span>Call Advocate</span>
+  <span>Call Now</span>
 </a>
 </body>
 </html>
