@@ -1,4 +1,3 @@
- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -112,7 +111,7 @@
     <header>
         <nav>
             <a href="#" class="logo"><i class="fas fa-balance-scale"></i> Court Marriage Tis Hazari Delhi</a>
-            <a href="tel:+918506989134" style="color: #f1c40f; text-decoration:none; font-weight:bold;">Call Expert</a>
+            <a href="tel:+919891343962" style="color: #f1c40f; text-decoration:none; font-weight:bold;">Call Expert</a>
         </nav>
     </header>
 
@@ -129,37 +128,37 @@
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
         <h3>Court Marriage</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866">
         <h3>Hindu Marriage</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a">
         <h3>Muslim Nikah</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff">
         <h3>Sikh Marriage</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da">
         <h3>Love Marriage</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
     <div class="marriage-card">
         <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486">
         <h3>Inter Caste Marriage</h3>
-        <a href="tel:8506989134" class="call-btn">📞 Call Now</a>
+        <a href="tel:9891343962" class="call-btn">📞 Call Now</a>
     </div>
 
 </div>
@@ -256,7 +255,7 @@
     <div class="office-info">
         <p><strong><i class="fas fa-map-marker-alt"></i> Office Address:</strong></p>
         <p>Near Metro Station Tis Hazari Court, Delhi-110054</p>
-        <p><strong><i class="fas fa-phone"></i> Contact:</strong> +91 8506989134</p>
+        <p><strong><i class="fas fa-phone"></i> Contact:</strong> +91 9891343962</p>
         <p><strong><i class="fas fa-clock"></i> Hours:</strong> 10:00 AM - 06:00 PM (Monday - Saturday)</p>
     </div>
 
@@ -271,10 +270,10 @@
     </footer>
 
     <div class="sticky-action">
-        <a href="tel:+918506989134" class="action-btn btn-call">
+        <a href="tel:+919891343962" class="action-btn btn-call">
             <i class="fas fa-phone-alt"></i> Call Expert
         </a>
-        <a href="https://wa.me/918506989134" class="action-btn btn-wa">
+        <a href="https://wa.me/919891343962" class="action-btn btn-wa">
             <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
     </div>
@@ -286,7 +285,7 @@
             var phone = document.getElementById('cust_phone').value;
             var service = document.getElementById('cust_service').value;
             
-            var wpNumber = "918506989134";
+            var wpNumber = "919891343962";
             var text = "New Inquiry from Website:\nName: " + name + "\nPhone: " + phone + "\nService: " + service;
             var finalUrl = "https://wa.me/" + wpNumber + "?text=" + encodeURIComponent(text);
             
@@ -307,7 +306,7 @@
             <h2>Need Advocate Help?</h2>
             <p>Call Now For Court Marriage. Free consultation.</p>
             
-            <a href="tel:+918506989134" class="main-call-btn">
+            <a href="tel:+919891343962" class="main-call-btn">
                 <span>CALL NOW</span>
             </a>
             
