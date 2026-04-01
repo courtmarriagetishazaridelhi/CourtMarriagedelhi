@@ -1,5 +1,29 @@
 <html lang="en">
 <head>
+<style>
+  .floating-call-btn {
+    position: fixed;
+    bottom: 25px;      /* Niche se gap */
+    right: 25px;       /* Right side se gap */
+    background-color: #1a237e; /* Professional Dark Blue color */
+    color: white !important;
+    padding: 12px 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 999999;   /* Sabse upar dikhne ke liye */
+    transition: all 0.3s ease;
+  }
+  .floating-call-btn:hover {
+    transform: translateY(-5px);
+    background-color: #000; /* Hover karne par black ho jayega */
+  }
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Court Marriage Consultants Delhi | Tis Hazari Court</title>
@@ -452,5 +476,11 @@
 
     document.getElementById('close-btn').onclick = removePopup;
 </script>
+<a href="tel:+919891343962" class="floating-call-btn">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+    <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.558-8.903.088-.041 2.058-1.011 2.066-1.015l-3.517-6.919c-.006.003-2.151 1.052-2.159 1.056-3.714 1.823-1.484 10.25 5.143 18.256 6.626 8.006 14.341 5.347 14.341 5.347l-5.731-2.038z"/>
+  </svg>
+  <span>Call Advocate</span>
+</a>
 </body>
 </html>
