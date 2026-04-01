@@ -271,7 +271,7 @@
 
     <div class="sticky-action">
         <a href="tel:+919891343962" class="action-btn btn-call">
-            <i class="fas fa-phone-alt"></i> Call Expert
+            <i class="fas fa-phone-alt"></i> Call Now
         </a>
         <a href="https://wa.me/919891343962" class="action-btn btn-wa">
             <i class="fab fa-whatsapp"></i> WhatsApp
