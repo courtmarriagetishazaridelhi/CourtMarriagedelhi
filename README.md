@@ -1,37 +1,38 @@
 <html lang="en">
 <head>
 <style>
-  .small-call-btn {
+  .circular-call-btn {
     position: fixed;
-    top: 50%;          /* Screen ke bilkul beech mein */
-    right: 0;          /* Right side se chipka hua */
-    transform: translateY(-50%); /* Bilkul center alignment ke liye */
-    background-color: #1a237e;  /* Professional Dark Blue */
+    top: 50%;          /* Screen ke beech mein */
+    right: 15px;       /* Side se thodi doori */
+    transform: translateY(-50%);
+    background-color: #25d366; /* Bright Green color */
     color: white !important;
-    padding: 10px 15px;
-    border-radius: 5px 0 0 5px; /* Sirf left side se gol */
+    width: 70px;       /* Gol shape ke liye width aur height barabar */
+    height: 70px;
+    border-radius: 50%; /* Isse button bilkul gol ho jayega */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: bold;
-    display: flex;
-    flex-direction: column; /* Icon upar, text niche */
-    align-items: center;
-    gap: 5px;
-    z-index: 100000;
-    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 999999;
+    transition: all 0.3s ease;
+    text-align: center;
+    line-height: 1.2;
   }
 
-  .small-call-btn svg {
-    width: 18px;
-    height: 18px;
-    fill: white;
+  .circular-call-btn:hover {
+    background-color: #128c7e; /* Hover karne par dark green */
+    transform: translateY(-50%) scale(1.1); /* Halka sa bada hoga */
   }
 
-  /* Hover karne par halka sa bahar aayega */
-  .small-call-btn:hover {
-    padding-right: 20px;
-    background-color: #000;
+  .circular-call-btn svg {
+    margin-bottom: 3px;
   }
 </style>
     <meta charset="UTF-8">
@@ -486,11 +487,11 @@
 
     document.getElementById('close-btn').onclick = removePopup;
 </script>
-<a href="tel:+919891343962" class="small-call-btn">
-  <svg viewBox="0 0 24 24">
+<a href="tel:+919891343962" class="circular-call-btn">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
     <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.558-8.903.088-.041 2.058-1.011 2.066-1.015l-3.517-6.919c-.006.003-2.151 1.052-2.159 1.056-3.714 1.823-1.484 10.25 5.143 18.256 6.626 8.006 14.341 5.347 14.341 5.347l-5.731-2.038z"/>
   </svg>
-  <span>Call Now</span>
+  <span>CALL<br>NOW</span>
 </a>
 </body>
 </html>
